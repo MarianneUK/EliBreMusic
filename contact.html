@@ -54,7 +54,28 @@
     </header>
 
     <div class="contact-bg">        
-               
+        <form method="POST" action="elibre@hispeed.ch" class="contact-form">
+            <h3>Want to contact us?
+                <br>
+            You can do that here...</h3>
+            
+            <input class="text-input" id="name" name="name" type="text" placeholder="your name" required>
+                                
+            <input class="text-input" type="email" id="email" name="email_address" placeholder="your email" required>            
+            
+            <input type="radio" id="music" name="enquiry-type" value="music" class="radio" required>
+            <label for="music">CDs/Music</label>
+            
+            <input type="radio" id="gig" name="enquiry-type" value="gig" class="radio" required>
+            <label for="gig">Gigs/Events</label>
+
+            <input type="radio" id="other" name="enquiry-type" value="other" class="radio" required>
+            <label for="other">Other</label>
+
+            <textarea id="message" rows="6" cols="10" name="message" placeholder="your message" required></textarea>
+            
+            <input class="contact-button" type="submit" value="Get in touch!">
+        </form>        
     </div>
 
     <footer>
