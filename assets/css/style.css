@@ -8,6 +8,7 @@ body {
     background-color: #000;
     font-family: Verdana, sans-serif;
     font-size: 14px;
+    color: #b3b3b3;
 }
 
 #header {
@@ -77,7 +78,7 @@ header .small-logo {
 }
 
 .cta > h2 {
-    font-size: 36px;
+    font-size: 28px;
     color: #8c8c8c;
     text-transform: uppercase;
     text-align: center;
