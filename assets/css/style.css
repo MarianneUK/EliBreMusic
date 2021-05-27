@@ -59,7 +59,8 @@ header .small-logo {
     height: 700px;
     width: 50%;
     float: left;
-    background: #000;    
+    background: #000;
+    
 }
 
 .logo {
@@ -254,6 +255,58 @@ footer li {
     text-align: center;
     margin-right: 100px; 
     padding: 50px 60px 70px 60px;
+}
+
+.english > h2, p {
+    color: #b3b3b3;
+    line-height: 25px;
+    padding: 5px;
+} 
+
+.english > h2 {
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+.english > p {
+    font-size: 16px;
+}
+
+.languages li {
+    display: inline-block;
+    list-style-type: none;
+    margin: 35px 10px;
+}
+
+.languages li a {
+    text-decoration: none;
+    color: #b3b3b3;
+}
+
+.languages a.active {
+    text-decoration: underline;
+}
+
+.francais > h2 {
+    color: #b3b3b3;
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+.espanol > h2 {
+    color: #b3b3b3;
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+.deutsch > h2 {
+    color: #b3b3b3;
+    font-size: 25px;
+    margin-bottom: 25px;
+}
+
+.deutsch > h2, p {
+    line-height: 22px;
 }
 
 /* Contact Page*/
