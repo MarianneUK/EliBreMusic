@@ -232,3 +232,26 @@ footer li {
 .music-section > iframe {
     margin-bottom: 30px;
 }
+
+/* Story Page*/
+
+.story-section {
+    margin-top: 25px;
+    margin-bottom: 50px;
+}
+
+.story-section > img {
+    width: 700px;
+    float: left;
+    margin-left: 120px;
+}
+
+.her-story {
+    background-color: rgba(85, 85, 85, 0.5);
+    width: 620px;
+    height: 580px;
+    float: right;
+    text-align: center;
+    margin-right: 100px; 
+    padding: 50px 60px 70px 60px;
+}
