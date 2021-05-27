@@ -49,12 +49,17 @@ body {
     color: #000;  
 }
 
+header .small-logo {
+    float: left;
+    margin-left: 120px;
+    position: absolute;
+}
+
 .hero-left {
     height: 700px;
     width: 50%;
     float: left;
-    background: #000;
-    
+    background: #000;    
 }
 
 .logo {
@@ -197,6 +202,33 @@ footer li {
     font-size: 16px;
     float: right;
     margin-left: 387px;
-    margin-top: 35px;
-    
+    margin-top: 35px;    
+}
+
+/* Music Page*/
+
+.music-bg {
+    background-image: url(../images/eb_music_bg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    position: static;
+    width: 1440px;
+    height: 1440px;
+    margin: 0px 120px;
+}
+
+.music-section {
+    background-color: rgba(0, 0, 0, 0.6);
+    color: #fff;
+    width: 640px;
+    height: 1350px;
+    margin-left: 120px;
+    padding: 30px 430px;
+    position: absolute;
+    top: 50px;
+}
+
+.music-section > iframe {
+    margin-bottom: 30px;
 }
