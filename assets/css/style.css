@@ -17,7 +17,7 @@ body {
     background-color: #000;
 }
 
-/* navigation links */
+/* Navigation Links */
 
 #nav-bar {
     font-size: 16px; 
@@ -224,7 +224,7 @@ footer li {
     background-color: rgba(0, 0, 0, 0.6);
     color: #fff;
     width: 640px;
-    height: 1350px;
+    height: 1400px;
     margin-left: 120px;
     padding: 30px 430px;
     position: absolute;
