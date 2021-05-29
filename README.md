@@ -12,10 +12,10 @@ My friend Eliane Brechbühl is a talented singer/songwriter, originally from Swi
 - [1. User Experience (UX) development process](#ux)
   * [1.1. Strategy](#strategy)
     + [Project Goals](#project-goals)
-      - [User Goals](#user-goals)
-      - [User Expectations](#user-expectations)
-      - [Trends of Modern Websites](#trends-of-modern-websites)
-      - [Strategy Table](#strategy-table)
+    + [User Goals](#user-goals)
+    + [User Expectations](#user-expectations)
+    + [Trends of Modern Websites](#trends-of-modern-websites)
+    + [Strategy Table](#strategy-table)
   * [1.2. Structure](#structure)
   * [1.3. Skeleton](#skeleton)
   * [1.4. Surface](#surface)
@@ -38,26 +38,26 @@ According to Jesse James Garrett, the user experience development process is all
 ## 1.1. Strategy
   [Go to the top](#table-of-contents)
 
-Strategy incorporates not only what the people running the site want to get out of it but what the users want to get out of the site as well.
+Jesse James Garrett also explains that strategy incorporates not only what the people running the site want to get out of it but what the users want to get out of the site as well.
 
 ### Project Goals
 
 The main goals of this website is to to promote the artist and her music, increase her fan base as well as offering a professional platform where she can showcase all of her work and sell music and book gigs.
 
 ### User Goals
- #### First Time User Goals
+ * First Time User Goals
     - First time users will want to know more about the artist.
     - First time users will want to listen to her music and/or know where they can listen to her music (i.e. Spotify)
     - First time users will want to know where and when she will perform next.
     - First time users will want to know how to buy her music, digital or hard copies.
     - First time users will want to know how to book her gigs.
 
- #### Returning User Goals
+ *  Returning User Goals
     - Returning users will want to keep up to date with her latest releases.
     - Returning users will want to keep up to date with where and when she will perform next.
     - Returning users will want to book more gigs with the artist.
 
-  #### Frequent User Goals
+  *  Frequent User Goals
     - Frequent user will want to check to see if there are any newly added content.
     - Frequent user will want to check to see if there are any newly added features such as a mailing list sign–up.
 
@@ -142,7 +142,7 @@ According to [Designs Desk](https://www.designsdesk.com/91/10-essential-website-
   - The Music page primarily displays Eli Bre's music videos on one scrollable page.
   - This section is valuable to the user as they will be able to easily watch one video after another on a same page. 
 
-![Music]()
+![Music](assets/documentation/music_page.png)
 
 - __Story page__
 
@@ -166,8 +166,8 @@ According to [Designs Desk](https://www.designsdesk.com/91/10-essential-website-
 ## 3. Technologies Used
   [Go to the top](#table-of-contents)
 
-* [Adobe XD](https:///)
-* [Visual Studio Code](https://atom.io/)
+* [Adobe XD](https://www.adobe.com/uk/products/xd.html?sdid=88X75SKR&mv=search&ef_id=CjwKCAjwzMeFBhBwEiwAzwS8zEdg1c5loBLcgbV5LTjaYi7O3-GLU0Gzv4EV_lO9A4Z9kiXtmX-x4RoClvYQAvD_BwE:G:s&s_kwcid=AL!3085!3!473161431558!e!!g!!adobe%20xd!1642716928!71269819668)
+* [Visual Studio Code](https://code.visualstudio.com/)
 * [HTML5](https://en.wikipedia.org/wiki/HTML5)
 * [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
 * [Google Chrome DevTool](https://www.google.com/intl/en_uk/chrome/)
