@@ -1,6 +1,6 @@
 # Eli Bre
 
-[View the live project here.] (https://marianneuk.github.io/EliBreMusic/)
+[View the live project here.](https://marianneuk.github.io/EliBreMusic/)
 
 My friend Eliane Brechbühl is a talented singer/songwriter, originally from Switzerland. Our paths crossed in Cambridge, UK and immediately found common grounds. When I let her know of my upcoming project, she told me that she did not have a website yet, despite her strong social media presence. Eli has beautiful pictures and lots of great content, which I thought would make a fantastic website where she could showcase all of her work on one dedicated platform.
 
@@ -12,8 +12,8 @@ My friend Eliane Brechbühl is a talented singer/songwriter, originally from Swi
 - [1. User Experience (UX) development process](#ux)
   * [1.1. Strategy](#strategy)
     + [Project Goals](#project-goals)
-      - [User Goals:](#user-goals)
-      - [User Expectations:](#user-expectations)
+      - [User Goals](#user-goals)
+      - [User Expectations](#user-expectations)
       - [Trends of Modern Websites](#trends-of-modern-websites)
       - [Strategy Table](#strategy-table)
   * [1.2. Structure](#structure)
@@ -62,7 +62,7 @@ The main goals of this website is to to promote the artist and her music, increa
     - Frequent user will want to check to see if there are any newly added features such as a mailing list sign–up.
 
 ### User Expectations
-According to [Open Mic UK] (https://www.openmicuk.co.uk/advice/why-musicians-singers-need-a-website/), a musician needs a website if they want to be taken seriously. Fans, media, and industry professionals all expect a singer to have a website. They want a one-stop destination that gives full coverage of their career. An artist needs a website to be a credible.
+According to [Open Mic UK](https://www.openmicuk.co.uk/advice/why-musicians-singers-need-a-website/), a musician needs a website if they want to be taken seriously. Fans, media, and industry professionals all expect a singer to have a website. They want a one-stop destination that gives full coverage of their career. An artist needs a website to be a credible.
 
 <a name="structure"></a>
 ## 1.2. Structure
@@ -79,26 +79,23 @@ According to [Open Mic UK] (https://www.openmicuk.co.uk/advice/why-musicians-sin
 ## 1.3. Skeleton
   [Go to the top](#table-of-contents)
 
-According to [WebFX] (https://www.webfx.com/blog/web-design/wireframing-benefits/), wireframes give web developers a clear path of what has to be done. It clarifies the direction and objectives of the site build and allows for better decision-making as to which web technologies, techniques and processes should be used in order to achieve an excellent result.
+According to [WebFX](https://www.webfx.com/blog/web-design/wireframing-benefits/), wireframes give web developers a clear path of what has to be done. It clarifies the direction and objectives of the site build and allows for better decision-making as to which web technologies, techniques and processes should be used in order to achieve an excellent result.
 
 For this project, wireframes were created using Adobe XD. All wireframes were shown to the client for approval, prior to starting the website development.
 
 ### Wireframes    
 
--   Home Page Wireframe
-(assets/media/wireframe_home_page.png)
+-   Home Page Wireframe(assets/documentation/wireframe_home_page.png)
 
--   Mobile Wireframe
-(assets/media/wireframe_home_page_mobile.png)
+-   Mobile Wireframe(assets/documentation/wireframe_home_page_mobile.png)
 
--   Contact Page Wireframe
-(assets/media/wireframe_contact_page.png)             
+-   Contact Page Wireframe(assets/documentation/wireframe_contact_page.png)             
 
 <a name="features"></a>
 # 2. Features
   [Go to the top](#table-of-contents)
 
-According to [Designs Desk] (https://www.designsdesk.com/91/10-essential-website-features-every-site-needs-to-be-successful/), the 10 essential website features every site needs to be successful are:
+According to [Designs Desk](https://www.designsdesk.com/91/10-essential-website-features-every-site-needs-to-be-successful/), the 10 essential website features every site needs to be successful are:
   1. A Catchy URL
   2. Essential Info
   3. Contact Us Section
@@ -114,24 +111,24 @@ According to [Designs Desk] (https://www.designsdesk.com/91/10-essential-website
 
 - __Navigation Bar__
 
-  - Featured on all pages, the navigation bar includes links to the Logo, Home page, Music page, Story page and Contact page and is identical in each page to allow for easy navigation. For the mobile version, the Contact page link has been removed to allow easier navigation and can be found in the footer section.
+  - Featured on all pages, the navigation bar includes links to the Home page via the Home tab or the logo on all pages except on the landing page to avoid repetition. Other links include the Music page, Story page and Contact page and is identical in each page to allow for easy navigation. For the mobile version, the Contact page link has been removed to allow easier navigation and can be found in the footer section.
   - This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button. 
 
-![Nav Bar]()
+![Nav Bar](assets/documentation/home_page_nav_bar.png)(assets/documentation/other_pages_nav_bar.png)
 
 - __The landing page__
 
   - This section introduces the user to Eli Bre with an eye catching picture and a Call to Action.
   - A music player has been added so potential fans and industry representative can hear a taste of what Eli Bre has to offer. 
 
-![Landing Page]()
+![Landing Page](assets/documentation/landing_page.png)
 
 - __Gigs Section__
 
   - This section can be found on the Home page, below the fold. It aims to showcase Eli Bre's upcoming and past gigs.
   - To add value to this section, a gallery of pictures has been added to complement the gigs' table. The gallery presents pictures of Eli Bre giging and recording as well as venues and events posters.
 
-![Gig Section]()
+![Gig Section](assets/documentation/gig_section.png)
 
 - __The Footer__ 
 
