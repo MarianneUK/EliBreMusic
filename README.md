@@ -57,7 +57,7 @@ The main goals of this website is to to promote the artist and her music, increa
     - Returning users will want to keep up to date with where and when she will perform next.
     - Returning users will want to book more gigs with the artist.
 
-  *  Frequent User Goals
+ *  Frequent User Goals
     - Frequent user will want to check to see if there are any newly added content.
     - Frequent user will want to check to see if there are any newly added features such as a mailing list sign–up.
 

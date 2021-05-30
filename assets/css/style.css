@@ -393,8 +393,8 @@ label {
 
 /* Media Queries */
 
-/* For large screens sizes from 1600px wide and down */
-@media screen and (max-width: 1600px){
+/* For large screens sizes from 1600px wide and up */
+@media screen and (min-width: 1600px){
     #hero-section {
         margin-left: 0;
         margin-right: 0;
@@ -442,8 +442,8 @@ label {
     }
 }
 
-/* For large to medium screens sizes from 1280px wide and down */
-@media screen and (max-width: 1280px){
+/* For large to medium screens sizes from 1280px wide and up */
+@media screen and (min-width: 1280px){
     #nav-bar > ul {
         margin-left: 50px;
     }
@@ -736,18 +736,5 @@ label {
     label {
         font-size: 14px;
         margin-right: 25px;
-    }
-    
-    .contact-button {
-        width: 100%;
-        height: 50px;
-        margin: 20px 0 20px 0;
-        padding: 10px;
-        border-radius: 5px;
-        background-color: #8c8c8c;
-        color: #000;
-        font-size: 25px;
-        font-weight: bold;
-        border: 2px solid #000;
     }
 }
