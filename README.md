@@ -85,11 +85,11 @@ For this project, wireframes were created using Adobe XD. All wireframes were sh
 
 ### Wireframes    
 
--   Home Page Wireframe(assets/documentation/wireframe_home_page.png)
+-   Home Page Wireframe()
 
--   Mobile Wireframe(assets/documentation/wireframe_home_page_mobile.png)
+-   Mobile Wireframe()
 
--   Contact Page Wireframe(assets/documentation/wireframe_contact_page.png)             
+-   Contact Page Wireframe()             
 
 <a name="features"></a>
 # 2. Features
@@ -177,14 +177,6 @@ According to [Designs Desk](https://www.designsdesk.com/91/10-essential-website-
 # 4. Testing
   [Go to the top](#table-of-contents) 
 
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your project’s features and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
-
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
-
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
-
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
-
 ## Manual Testing
 
 The site has been tested on various browsers such as Google Chrome, Safari and Mozilla Firefox, on multiple devices such as desktop, laptop, tablet and mobile.
@@ -194,19 +186,23 @@ Below is the testing process for all pages on desktop and mobile versions:
 
 ### All pages:
   - Navigation Bar:
-    - Home - When selecting "Home", the browser redirects to the Home page. The text in the navigation bar is highlighted with a gray background for ease of navigation. Internal link works as expected.
-    - Music - When selecting "Music", the browser redirects to the Music page. The text in the navigation bar is highlighted with a gray background for ease of navigation. Internal link works as expected.
-    - Story - When selecting "Story", the browser redirects to the Story page. The text in the navigation bar is highlighted with a gray background for ease of navigation. Internal link works as expected.
-    - Contact - When selecting "Contact", the browser redirects to the Contact page. The text in the navigation bar is highlighted with a gray background for ease of navigation. Internal link works as expected.
+    - Home 
+      - When selecting "Home", the browser redirects to the Home page. The text in the navigation bar is highlighted with a gray background for ease of navigation. Internal link works as expected.
+    - Music 
+      - When selecting "Music", the browser redirects to the Music page. The text in the navigation bar is highlighted with a gray background for ease of navigation. Internal link works as expected.
+    - Story 
+      - When selecting "Story", the browser redirects to the Story page. The text in the navigation bar is highlighted with a gray background for ease of navigation. Internal link works as expected.
+    - Contact 
+      - When selecting "Contact", the browser redirects to the Contact page. The text in the navigation bar is highlighted with a gray background for ease of navigation. Internal link works as expected.
 
-    - Text:
-      - All text is in the correct and consistent size, font and color. Text has also been checked for typos.
+  - Text:
+    - All text is in the correct and consistent size, font and color. Text has also been checked for typos.
 
-    - Media:
-      - All images load on the page. All images have alt text equivalent in a contrasted color if not loading or for visually impaired users. Working as expected.
+  - Media:
+    - All images load on the page. All images have alt text equivalent in a contrasted color if not loading or for visually impaired users. Working as expected.
 
-    - Responsiveness
-      - All pages and elements are responsive. Each page has been checked for desktop, mobile and adjusting screen size to find break points. Working as expected.
+  - Responsiveness
+    - All pages and elements are responsive. Each page has been checked for desktop, mobile and adjusting screen size to find break points. Working as expected.
 
   - Footer:
     - Spotify follow button

@@ -390,3 +390,364 @@ label {
     border: 2px solid #8c8c8c;
     cursor: pointer;
 }
+
+/* Media Queries */
+
+/* For large screens sizes from 1600px wide and down */
+@media screen and (max-width: 1600px){
+    #hero-section {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    #hero-image {
+        margin-right: 0;
+    }
+
+    .gig-gallery {
+        margin-left: 0;
+    }
+
+    .gigs {
+        margin-right: 0;
+    }
+
+    .follow-button {
+        margin-left: 180px;
+    }
+
+    .copyright {
+        margin-left: 180px;
+    }
+
+    .music-bg {
+        margin: 0;
+    }
+
+    .music-section {
+        margin-left: 0;
+    }
+
+    .story-section > img {
+        margin-left: 0;
+    }
+
+    .her-story {
+        margin-right: 0;
+        width: 600px; 
+    }
+
+    .contact-bg {
+        margin: 0;
+    }
+}
+
+/* For large to medium screens sizes from 1280px wide and down */
+@media screen and (max-width: 1280px){
+    #nav-bar > ul {
+        margin-left: 50px;
+    }
+    
+    .logo {
+        margin-left: 75px;
+    }
+
+    .cta {
+        margin-left: 180px;
+    }
+
+    .gig-gallery {
+        columns: 3;
+        margin-left: 20px;
+    }
+
+    .gigs {
+        margin-right: 0; 
+    }
+
+    .hidden {
+        display: none;
+    }
+
+    footer .small-logo {
+        margin-left: 75px;
+    }
+
+    header .small-logo {
+        margin-left: 75px;
+    }
+
+    .music-section {
+        margin-left: 0px;
+        padding: 30px 355px;
+    }
+
+    .story-section {
+        margin-top: 35px;
+        margin-bottom: 80px;
+    }
+    
+    .story-section > img {
+        width: 630px;
+    }
+
+    .her-story {
+        width: 530px;
+        height: 540px;
+        padding: 30px 40px 50px 40px;
+        margin-right: 20px;
+    }
+
+    .english > h2 {
+        font-size: 28px;
+        margin-bottom: 20px;
+    }
+
+    .english > p {
+        font-size: 12px;
+    }
+
+    .francais > h2 {
+        font-size: 24px;
+        margin-bottom: 20px;
+    }
+
+    .francais > p {
+        font-size: 12px;
+    }
+
+    .espanol > h2 {
+        font-size: 24px;
+        margin-bottom: 20px;
+    }
+
+    .espanol > p {
+        font-size: 12px;
+    }
+
+    .deutsch > h2 {
+        font-size: 24px;
+        margin-bottom: 20px;
+    }
+
+    .deutsch > p {
+        font-size: 12px;
+    }
+
+    .contact-form {
+        margin-left: 300px;
+    }
+}
+
+
+/* For medium screens sizes from 768px wide and down */
+@media screen and (max-width: 768px){
+    #header {
+        height: 55px;
+    }
+    
+    .contact {
+        display: none;
+    }
+
+    .small-logo {
+        display: none;
+    }
+
+    .copyright {
+        display: none;
+    }
+
+    #nav-bar ul {
+        margin: 0;
+    }
+
+    .hero-left {
+        width: 100%; 
+        height: 500px;       
+    }
+
+    .logo {
+        text-align: center;
+        margin-top: 100px;
+        margin-left: 0px;
+    }
+
+    .cta {
+        width: 300px;
+        height: 300px;
+        margin-left: 220px;
+        margin-top: 35px;
+    }
+
+    .hero-right {
+        width: 700px;
+        margin: 0px 15px 10px 15px;
+    }
+
+    .gig-gallery {
+        display: none;
+    }
+
+    .gigs {
+        margin: 0px 15px 10px 15px;
+    }
+
+    .music-section {
+        padding: 90px;
+    }
+
+    .story-section > img {
+        width: 710px;
+        margin-left: 21px;
+    }
+
+    .her-story {
+        width: 630px;
+    }
+
+    .contact-form {
+        margin-left: 20px;
+    }
+}
+
+/* For small screens sizes from 320px wide and down */
+@media screen and (max-width: 1600px){
+    #nav-bar {
+        font-size: 12px; 
+    }
+
+    .logo > svg {
+        width: 300px;
+    } 
+
+    .cta {
+        margin-left: 0px;
+        margin-top: 35px;
+    }
+
+    .hero-right {
+        width: 320px;
+        margin: 0px 15px 10px 15px;
+    }
+
+    .gigs {
+        width: 320px;
+        text-align: center;
+        margin: 0px;  
+    }
+
+    table {
+        padding: 2px;
+        width: 320px;
+    }
+
+    th {
+        font-size: 12px;
+    }
+
+    td {
+        font-weight: 200;
+        font-size: 11px;
+    }
+
+    th, td {
+        line-height: 15px;
+        padding: 0px;
+    }
+
+    .follow-button {
+        margin-left: 95px;
+        margin-right: 90px;
+    }
+
+    .social-links {
+        margin-left: 40px;
+        margin-right: 20px; 
+    }
+
+    .button {
+        margin-left: 95px;
+    }
+
+    .music-section {
+        width: 320px;
+        height: 1445px;
+        padding: 0;
+    }
+
+    .music-section > iframe {
+        width: 300px;
+        margin: 0;
+    }
+
+    .story-section {
+        margin-top: 5px;
+        margin-bottom: 10px;
+    }
+    
+    .story-section > img {
+        width: 300px;
+        margin-left: 0;
+    }
+    
+    .her-story {
+        width: 300px;
+        height: 850px;
+        margin-right: 0; 
+        padding: 20px 5px;
+    }
+
+    .languages li {
+        font-size: 11px;
+    }
+
+    .contact-form {
+        width: 280px;
+        height: 730px;
+        margin-top: 40px;
+        margin-left: 5px;
+        padding: 10px 10px;
+    }
+    
+    .contact-form > h3 {
+        font-size: 20px;
+    }
+    
+    .text-input {
+        width: 260px;
+        height: 25px;
+        margin: 20px 0 20px 0;
+        padding: 10px;
+    }
+    
+    textarea {
+        width: 260px;
+        height: 150px;
+        margin: 20px 0 20px 0;
+        padding: 10px;
+    }
+    
+    .radio {
+        margin-left: 10px;
+        margin-right: 1px;
+    }
+    
+    label {
+        font-size: 14px;
+        margin-right: 25px;
+    }
+    
+    .contact-button {
+        width: 100%;
+        height: 50px;
+        margin: 20px 0 20px 0;
+        padding: 10px;
+        border-radius: 5px;
+        background-color: #8c8c8c;
+        color: #000;
+        font-size: 25px;
+        font-weight: bold;
+        border: 2px solid #000;
+    }
+}
