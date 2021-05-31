@@ -342,7 +342,7 @@ footer li {
 }
 
 .text-input {
-    color: #fff;
+    color: #000;
     font-family: inherit;
     width: 580px;
     height: 25px;
@@ -352,6 +352,7 @@ footer li {
 }
 
 textarea {
+    color: #000;
     width: 580px;
     height: 150px;
     margin: 20px 0 20px 0;
@@ -393,35 +394,68 @@ label {
 
 /* Media queries */
 
+/* For large and medium screens sizes from 1600px wide and down */
+@media screen and (max-width: 1600px) {
+    * {
+        margin: 0;
+    }
+}
+
 /* For small screens sizes from 490px wide and down */
 @media screen and (max-width: 490px){
     #nav-bar {
         font-size: 10px; 
     }
 
+    .small-logo {
+        display: none;
+    }
+
+    .copyright {
+        display: none;
+    }
+
+    .hero-left {
+        height: 350px;
+        width: 480px;
+    }
+
     .logo > svg {
         width: 300px;
-    } 
+    }
+
+    .logo {
+        margin-top: 0;
+        margin-left: 0px;
+    }   
 
     .cta {
-        margin-left: 0px;
-        margin-top: 35px;
+        margin-left: 85px;
+        margin-top: 0;
     }
 
     .hero-right {
-        width: 320px;
-        margin: 0px 15px 10px 15px;
+        height: 480px;
+        width: 480px;
+    }
+
+    #hero-image {
+        width: 480px;
+        height: 480px;
+    }
+
+    .gig-gallery {
+        display: none;
     }
 
     .gigs {
-        width: 320px;
-        text-align: center;
-        margin: 0px;  
+        width: 100%; 
+        margin-right: 0;
     }
 
     table {
         padding: 2px;
-        width: 320px;
+        width: 100%;
     }
 
     th {
@@ -439,27 +473,34 @@ label {
     }
 
     .follow-button {
-        margin-left: 95px;
-        margin-right: 90px;
+        width: 100px;
+        margin-left: 30px;
+        margin-right: 10px;
     }
 
     .social-links {
-        margin-left: 40px;
-        margin-right: 20px; 
+        margin-left: 20px;
+        margin-right: 10px; 
     }
 
     .button {
-        margin-left: 95px;
+        margin-left: 20px;
     }
 
     .music-section {
-        width: 320px;
-        height: 1445px;
-        padding: 0;
+        width: 490px;
+        height: 1355px;
+        padding: 45px;
+        margin: 0;
+    }
+
+    .music-bg {
+        width: 100%;
+        margin: 0;
     }
 
     .music-section > iframe {
-        width: 300px;
+        width: 400px;
         margin: 0;
     }
 
@@ -469,26 +510,46 @@ label {
     }
     
     .story-section > img {
-        width: 300px;
+        width: 100%;
         margin-left: 0;
     }
     
     .her-story {
-        width: 300px;
-        height: 850px;
+        width: 100%;
+        height: 650px;
         margin-right: 0; 
-        padding: 20px 5px;
+        padding: 20px;
+    }
+
+    .english > p {
+        font-size: 12px;
+    }
+
+    .francais > p {
+        font-size: 12px;
+    }
+
+    .deutsch > p {
+        font-size: 12px;
+    }
+
+    .english > p {
+        font-size: 12px;
     }
 
     .languages li {
         font-size: 11px;
     }
 
+    .contact-bg {
+        margin: 0;
+    }
+
     .contact-form {
-        width: 280px;
-        height: 730px;
+        width: 380px;
+        height: 650px;
         margin-top: 40px;
-        margin-left: 5px;
+        margin-left: 50px;
         padding: 10px 10px;
     }
     
@@ -497,22 +558,21 @@ label {
     }
     
     .text-input {
-        width: 260px;
+        width: 360px;
         height: 25px;
         margin: 20px 0 20px 0;
         padding: 10px;
     }
     
     textarea {
-        width: 260px;
+        width: 360px;
         height: 150px;
         margin: 20px 0 20px 0;
         padding: 10px;
     }
     
     .radio {
-        margin-left: 10px;
-        margin-right: 1px;
+        margin-left: 14px;
     }
     
     label {

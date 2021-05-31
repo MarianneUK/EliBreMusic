@@ -81,10 +81,13 @@ For this project, wireframes were created using Adobe XD. All wireframes were sh
 
 ### Wireframes    
 
+Home Page Wireframe
 -   ![Home Page Wireframe](assets/documentation/wireframe_home_page.png)
 
+Mobile Wireframe
 -   ![Mobile Wireframe](assets/documentation/wireframe_home_page_mobile.png)
 
+Contact Page Wireframe
 -   ![Contact Page Wireframe](assets/documentation/wireframe_contact_page.png)       
 
 <a name="surface"></a>
@@ -211,7 +214,7 @@ Below is the testing process for all pages on desktop and mobile versions:
     - All images load on the page. All images have alt text equivalent in a contrasted color if not loading or for visually impaired users. Working as expected.
 
   - Responsiveness
-    - Responsiveness has been more challenging than expected. After adding all media queries, the site was not behaving accordingly
+    - Responsiveness has been more challenging than expected. After adding all media queries, the site was not behaving accordingly. 
 
   - Footer:
     - Spotify follow button - When the Follow button is clicked, a pop-up window opens to Eli Bre's Spotify page.
@@ -240,14 +243,25 @@ Below is the testing process for all pages on desktop and mobile versions:
 
 The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
 
-- HTML
-  - Originally, found 15 errors
-- [W3C CSS Validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fmarianneuk.github.io%2FEliBreMusic%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+- [Markup Validation Service](https://validator.w3.org/)
+  - All errors found came from the iframes included as well as the svg logo.
+- [W3C CSS Validator](https://jigsaw.w3.org/css-validator/validator.html.en)
   - No Error Found.
 
 <a name="known-bugs"></a>
 # 5. Known Bugs
   [Go to the top](#table-of-contents)
+
+- Home Page - Mobile version - Table
+I would have liked the date column to be less wide, to give more space to the middle column. I did not succeed to fix this.
+
+- Footer - Desktop and mobile versions - Contact button
+The contact button is not aligned with the other elements of the footer. DevTool shows a different margin compared to the other elements. See pictures below. I did not succeed to fix this.
+![Footer Margin](assets/documentation/footer_margin.png)
+![Contact button margin](assets/documentation/contact_button_margin.png)
+
+
+
 
 /* You will need to mention unfixed bugs and why they were not fixed. This section should include shortcomings of the frameworks or technologies used. Although time can be a big variable to consider, paucity of time and difficulty understanding implementation is not a valid reason to leave bugs unfixed.*/
 
