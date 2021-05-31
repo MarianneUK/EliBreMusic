@@ -171,7 +171,7 @@ According to [Designs Desk](https://www.designsdesk.com/91/10-essential-website-
 
 - A mailing list sign–up – a mailing list sign-up form on the main page of the website so readers can’t miss it. Email is the most direct and effective way to contact fans, so it should be made easy and appealing to join the mailing list.
 - A music and merch store – selling merchandise directly from the website will make the artist look professional and serious about their music career. The artist can keep a higher cut of the royalties this way, too. 
-- Responsive design for all devices.
+- Fully responsive design for all devices (i.e. not just for desktop and mobile)
 
 <a name="technologies-used"></a>
 ## 3. Technologies Used
@@ -214,10 +214,10 @@ Below is the testing process for all pages on desktop and mobile versions:
     - All images load on the page. All images have alt text equivalent in a contrasted color if not loading or for visually impaired users. Working as expected.
 
   - Responsiveness
-    - Responsiveness has been more challenging than expected. After adding all media queries, the site was not behaving accordingly. 
+    - Responsiveness has been more challenging than expected. After adding all media queries, the site was not behaving accordingly. While testing on various viewport
 
   - Footer:
-    - Spotify follow button - When the Follow button is clicked, a pop-up window opens to Eli Bre's Spotify page.
+    - Spotify follow button - When the Follow button is clicked, a pop-up window opens to Eli Bre's Spotify page. I suspect that once you follow the artist, the button becomes obsolete.
     - Facebook - When the Facebook icon is clicked, a new tab opens and redirects to Eli Bre's Facebook page. Working as expected.
     - YouTube - When the YouTube icon is clicked, a new tab opens and redirects to Eli Bre's YouTube channel. Working as expected.
     - Instagram - When the Instagram icon is clicked, a new tab opens and redirects to Eli Bre's Instagram page. Working as expected.
@@ -244,7 +244,7 @@ Below is the testing process for all pages on desktop and mobile versions:
 The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
 
 - [Markup Validation Service](https://validator.w3.org/)
-  - All errors found came from the iframes included as well as the svg logo.
+  - All errors found came from the Youtube iframes included as well as the svg logo. I did not dare to amend this errors in case it affects the content.
 - [W3C CSS Validator](https://jigsaw.w3.org/css-validator/validator.html.en)
   - No Error Found.
 
@@ -256,14 +256,12 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 I would have liked the date column to be less wide, to give more space to the middle column. I did not succeed to fix this.
 
 - Footer - Desktop and mobile versions - Contact button
-The contact button is not aligned with the other elements of the footer. DevTool shows a different margin compared to the other elements. See pictures below. I did not succeed to fix this.
+The contact button is not aligned with the other elements of the footer. DevTools show a different margin compared to the other elements. See pictures below. I did not succeed to fix this.
 ![Footer Margin](assets/documentation/footer_margin.png)
 ![Contact button margin](assets/documentation/contact_button_margin.png)
 
-
-
-
-/* You will need to mention unfixed bugs and why they were not fixed. This section should include shortcomings of the frameworks or technologies used. Although time can be a big variable to consider, paucity of time and difficulty understanding implementation is not a valid reason to leave bugs unfixed.*/
+- Responsive design
+On some mobile devices the logo and Call to Action are not centered anymore.
 
 <a name="deployment"></a>
 # 6. Deployment

@@ -52,7 +52,6 @@ body {
 
 header .small-logo {
     float: left;
-    margin-left: 120px;
     position: absolute;
 }
 
@@ -67,13 +66,12 @@ header .small-logo {
 .logo {
     text-align: center;
     margin-top: 100px;
-    margin-left: 110px;
 }
 
 .cta {
     width: 300px;
     height: 300px;
-    margin-left: 315px;
+    margin-left: 175px;
     margin-top: 75px;
 }
 
@@ -93,7 +91,7 @@ header .small-logo {
 }
 
 #hero-image {
-    height: 700px;
+    height: 100%;
     margin-right: 60px;
 }
 
@@ -104,14 +102,13 @@ header .small-logo {
 
 .gig-gallery {
     float: left;
-    margin-left: 120px;
     columns: 4;
     background-color: #000;
 }
 
 .gig-gallery > img {
-    width: 163px;
-    height: 163px;
+    width: 160px;
+    height: 160px;
     display: grid;
     border: 2px solid #000;
 }
@@ -120,8 +117,7 @@ header .small-logo {
     background-color: rgba(85, 85, 85, 0.5);
     width: 700px;
     float: right;
-    text-align: center;
-    margin-right: 130px;  
+    text-align: center; 
 }
 
 table {
@@ -160,7 +156,7 @@ footer {
 }
 
 footer .small-logo {
-    margin-left: 135px;
+    margin-left: 5px;
     margin-top: 15px;
 }
 
@@ -179,8 +175,7 @@ footer li {
 }
 
 .follow-button {
-    width: 100px;
-    margin-left: 280px;
+    margin-left: 230px;
 }
 
 .button {
@@ -203,7 +198,7 @@ footer li {
     color: #8c8c8c;
     font-size: 16px;
     float: right;
-    margin-left: 387px;
+    margin-left: 230px;
     margin-top: 35px;    
 }
 
@@ -215,18 +210,15 @@ footer li {
     background-position: center;
     background-attachment: fixed;
     position: static;
-    width: 1440px;
-    height: 1440px;
-    margin: 0px 120px;
+    width: 100%;
+    height: 1450px;
 }
 
 .music-section {
     background-color: rgba(0, 0, 0, 0.6);
-    color: #fff;
-    width: 640px;
-    height: 1400px;
-    margin-left: 120px;
-    padding: 30px 430px;
+    width: auto;
+    height: 1430px;
+    padding: 3% 50% 0% 28%;
     position: absolute;
     top: 50px;
 }
@@ -243,19 +235,19 @@ footer li {
 }
 
 .story-section > img {
-    width: 700px;
+    width: 50%;
     float: left;
-    margin-left: 120px;
 }
 
 .her-story {
     background-color: rgba(85, 85, 85, 0.5);
-    width: 620px;
-    height: 580px;
+    width: 50%;
     float: right;
     text-align: center;
-    margin-right: 100px; 
-    padding: 50px 60px 70px 60px;
+}
+
+.english, .francais, .espanol, .deutsch {
+    padding: 15px;
 }
 
 .english > h2, p {
@@ -270,7 +262,7 @@ footer li {
 }
 
 .english > p {
-    font-size: 16px;
+    font-size: 14px;
 }
 
 .languages li {
@@ -318,9 +310,8 @@ footer li {
     background-position: center;
     background-attachment: local;
     position: relative;
-    width: 1440px;
+    width: 100%;
     height: 765px;
-    margin: 0px 120px;
 }
 
 .contact-form {
@@ -328,8 +319,9 @@ footer li {
     color: #fff;
     width: 600px;
     height: 630px;
+    left: 25%;
+    right: 25%;
     margin-top: 40px;
-    margin-left: 370px;
     padding: 30px 50px;
     position: absolute;
 }
@@ -393,13 +385,6 @@ label {
 }
 
 /* Media queries */
-
-/* For large and medium screens sizes from 1600px wide and down */
-@media screen and (max-width: 1600px) {
-    * {
-        margin: 0;
-    }
-}
 
 /* For small screens sizes from 490px wide and down */
 @media screen and (max-width: 490px){
@@ -489,7 +474,7 @@ label {
 
     .music-section {
         width: 490px;
-        height: 1355px;
+        height: 1365px;
         padding: 45px;
         margin: 0;
     }
@@ -511,14 +496,12 @@ label {
     
     .story-section > img {
         width: 100%;
-        margin-left: 0;
     }
     
     .her-story {
         width: 100%;
         height: 650px;
         margin-right: 0; 
-        padding: 20px;
     }
 
     .english > p {
@@ -526,15 +509,23 @@ label {
     }
 
     .francais > p {
-        font-size: 12px;
+        font-size: 11px;
+    }
+
+    .espanol {
+        font-size: 11px;
     }
 
     .deutsch > p {
-        font-size: 12px;
+        font-size: 11px;
     }
 
     .english > p {
         font-size: 12px;
+    }
+
+    .languages > ul {
+        padding-left: 25px;
     }
 
     .languages li {
@@ -542,14 +533,14 @@ label {
     }
 
     .contact-bg {
-        margin: 0;
+        width: 100%;
     }
 
     .contact-form {
         width: 380px;
         height: 650px;
+        left: 10%;
         margin-top: 40px;
-        margin-left: 50px;
         padding: 10px 10px;
     }
     
