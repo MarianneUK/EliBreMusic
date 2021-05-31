@@ -6,7 +6,7 @@ My friend Eliane Brechbühl is a talented singer/songwriter, originally from Swi
 
 <!--- Elibremusic.com is the official website for the independent singer/songwriter Eli Bre. Eli Bre already has a strong social media presence, and the website aims to promote the artist and her music, increase her fan base as well as offering a professional platform where she can showcase her work and sell music and book gigs. --->
 
-![Responsive Mockup](assets/media/responsive_design_mockup.png)
+![Landing page](assets/documentation/landing_page2.png)
 
 # Table of Contents
 - [1. User Experience (UX) development process](#ux)
@@ -42,7 +42,7 @@ Jesse James Garrett also explains that strategy incorporates not only what the p
 
 ### Project Goals
 
-The main goals of this website is to to promote the artist and her music, increase her fan base as well as offering a professional platform where she can showcase all of her work and sell music and book gigs.
+The main goals of this website is to promote the artist and her music, increase her fan base as well as offering a professional platform where she can showcase all of her work, sell music and book gigs.
 
 ### User Goals
  * First Time User Goals
@@ -85,11 +85,21 @@ For this project, wireframes were created using Adobe XD. All wireframes were sh
 
 ### Wireframes    
 
--   [Home Page Wireframe](assets/documentation/wireframe_home_page.png)
+-   ![Home Page Wireframe](assets/documentation/wireframe_home_page.png)
 
--   [Mobile Wireframe]()
+-   ![Mobile Wireframe](assets/documentation/wireframe_home_page_mobile.png)
 
--   Contact Page Wireframe()             
+-   ![Contact Page Wireframe](assets/documentation/wireframe_contact_page.png)       
+
+<a name="surface"></a>
+## 1.4. Surface
+  [Go to the top](#table-of-contents)
+
+### Colours
+The main colours for this are black (#000) and gray (#b3b3b3).
+
+### Typography
+The font used throughout the project is Verdana.
 
 <a name="features"></a>
 # 2. Features
@@ -136,7 +146,7 @@ According to [Designs Desk](https://www.designsdesk.com/91/10-essential-website-
   - The footer section includes an embedded Spotify follow button, links to eli Bre's social media sites and a link to the contact page. The social media links will open to a new tab to allow easy navigation for the user. 
   - The footer is valuable to the user as it encourages them to keep connected via social media and also provides a link to the contact page for desktop and mobile versions.
 
-![Footer]()
+![Footer](assets/documentation/footer.png)
 
 - __Music page__
 
@@ -150,30 +160,31 @@ According to [Designs Desk](https://www.designsdesk.com/91/10-essential-website-
   - The Story page provides the user with a brief biography of the artist. 
   - As the client speaks several languages and performs in various countries, automatic translations have been provided to retain user presence and add value to the site. 
 
-![Story]()
+![Story](assets/documentation/story_page.png)
 
 - __Contact Page__
 
-  - This page will allow the user to get signed up to Love Running to start their running journey with the community. The user will be able specify if they would like to take part in road, trail or both types of running. The user will be asked to submit their full name and email address. 
+  - This page will allow the user to contact the artist if interested in buying music, enquiring for gigs or for other matters.
 
-![Contact]()
+![Contact](assets/documentation/contact_page.png)
 
 ### Features Left to Implement
 
 - A mailing list sign–up – a mailing list sign-up form on the main page of the website so readers can’t miss it. Email is the most direct and effective way to contact fans, so it should be made easy and appealing to join the mailing list.
 - A music and merch store – selling merchandise directly from the website will make the artist look professional and serious about their music career. The artist can keep a higher cut of the royalties this way, too. 
+- Responsive design for all devices.
 
 <a name="technologies-used"></a>
 ## 3. Technologies Used
   [Go to the top](#table-of-contents)
 
-* [Adobe XD](https://www.adobe.com/uk/products/xd.html?sdid=88X75SKR&mv=search&ef_id=CjwKCAjwzMeFBhBwEiwAzwS8zEdg1c5loBLcgbV5LTjaYi7O3-GLU0Gzv4EV_lO9A4Z9kiXtmX-x4RoClvYQAvD_BwE:G:s&s_kwcid=AL!3085!3!473161431558!e!!g!!adobe%20xd!1642716928!71269819668)
-* [Visual Studio Code](https://code.visualstudio.com/)
-* [Gitpod]
-* [HTML5](https://en.wikipedia.org/wiki/HTML5)
-* [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
-* [Google Chrome DevTool](https://www.google.com/intl/en_uk/chrome/)
-* [GitHub](https://github.com/)
+* [Adobe XD](https://www.adobe.com/uk/products/xd.html?sdid=88X75SKR&mv=search&ef_id=CjwKCAjwzMeFBhBwEiwAzwS8zEdg1c5loBLcgbV5LTjaYi7O3-GLU0Gzv4EV_lO9A4Z9kiXtmX-x4RoClvYQAvD_BwE:G:s&s_kwcid=AL!3085!3!473161431558!e!!g!!adobe%20xd!1642716928!71269819668) for wireframes design.
+* [Visual Studio Code](https://code.visualstudio.com/) originally used to write code, but then switched to gitpod as suggested by CI.
+* [Gitpod](https://www.gitpod.io/) for writing most of the code as well as the readme file.
+* [HTML5](https://en.wikipedia.org/wiki/HTML5) as this project uses HyperText Markup Language.
+* [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets) as this project uses Cascading Style Sheets.
+* [Google Chrome DevTool](https://www.google.com/intl/en_uk/chrome/) for debugging.
+* [GitHub](https://github.com/) for deployment.
 
 <a name="testing"></a>
 # 4. Testing
@@ -204,20 +215,23 @@ Below is the testing process for all pages on desktop and mobile versions:
     - All images load on the page. All images have alt text equivalent in a contrasted color if not loading or for visually impaired users. Working as expected.
 
   - Responsiveness
-    - All pages and elements are responsive. Each page has been checked for desktop, mobile and adjusting screen size to find break points. Working as expected.
+    - Responsiveness has been more challenging than expected. After adding all media queries, the site was not behaving accordingly
 
   - Footer:
-    - Spotify follow button
+    - Spotify follow button - When the Follow button is clicked, a pop-up window opens to Eli Bre's Spotify page.
     - Facebook - When the Facebook icon is clicked, a new tab opens and redirects to Eli Bre's Facebook page. Working as expected.
     - YouTube - When the YouTube icon is clicked, a new tab opens and redirects to Eli Bre's YouTube channel. Working as expected.
     - Instagram - When the Instagram icon is clicked, a new tab opens and redirects to Eli Bre's Instagram page. Working as expected.
     - Contact - when the Contact button is clicked, the browser redirects to the Contact page. Working as expected.
 
 ### Music page:
-  
+  - Videos:
+    - All videos load on the page and when clicked, display the video with sound. Working as expected.
+    - When the "Watch on Youtube" button is clicked, the browser redirect the user to the appropriate Youtube page, on a new tab. Working as expected.
 
 ### Story page:
-  
+  - Translations:
+    - Each of the four languages options load appropriately. Working as expected.
 
 ### Contact page:
   - Contact form:
@@ -225,25 +239,21 @@ Below is the testing process for all pages on desktop and mobile versions:
     - Checking that the submit button works and processes the form.
 
 ## Automated testing
-### Google Developer Tools
 
-### Responsive Tools
+### W3C Validator Tools
 
-
-
-### Validator Testing 
+The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
 
 - HTML
   - 
 - CSS
   - 
 
-
 <a name="known-bugs"></a>
 # 8. Known Bugs
   [Go to the top](#table-of-contents)
 
-You will need to mention unfixed bugs and why they were not fixed. This section should include shortcomings of the frameworks or technologies used. Although time can be a big variable to consider, paucity of time and difficulty understanding implementation is not a valid reason to leave bugs unfixed. 
+/* You will need to mention unfixed bugs and why they were not fixed. This section should include shortcomings of the frameworks or technologies used. Although time can be a big variable to consider, paucity of time and difficulty understanding implementation is not a valid reason to leave bugs unfixed.*/
 
 <a name="deployment"></a>
 # 6. Deployment
@@ -254,13 +264,17 @@ Below is the step by step process for deployment:
 
   1. Log in to GitHub and locate the [GitHub Repository](https://github.com/)
   2. At the top of the Repository (not top of page), locate the "Settings" Button on the menu.
-    - Alternatively Click [Here](https://raw.githubusercontent.com/) for a GIF demonstrating the process starting from Step 2.
   3. Scroll down the Settings page until you locate the "GitHub Pages" Section.
   4. Under "Source", click the dropdown called "None" and select "Master Branch".
   5. The page will automatically refresh.
   6. Scroll back down through the page to locate the now published site [link](https://github.com) in the "GitHub Pages" section.
 
 ## Credits 
+
+### Design
+
+- [Dribbble](https://dribbble.com/): for inspiration.
+- [DesignCourse Youtube Channel](https://www.youtube.com/c/DesignCourse/videos): for great tutorials from design to html &amp css.
 
 ### Code
 
@@ -275,3 +289,7 @@ Below is the step by step process for deployment:
 ### Media
 
 - All images were provided by the client Eliane Brechbühl.
+
+### Acknowledgements
+
+- My new Mentor for accepting to support me at the last minute and for his advice.
