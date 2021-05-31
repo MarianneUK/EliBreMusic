@@ -12,8 +12,6 @@ My friend Eliane Brechbühl is a talented singer/songwriter, originally from Swi
     + [Project Goals](#project-goals)
     + [User Goals](#user-goals)
     + [User Expectations](#user-expectations)
-    + [Trends of Modern Websites](#trends-of-modern-websites)
-    + [Strategy Table](#strategy-table)
   * [1.2. Structure](#structure)
   * [1.3. Skeleton](#skeleton)
   * [1.4. Surface](#surface)
@@ -83,12 +81,15 @@ For this project, wireframes were created using Adobe XD. All wireframes were sh
 ### Wireframes    
 
 Home Page Wireframe:
+
   ![Home Page Wireframe](assets/documentation/wireframe_home_page.png)
 
 Mobile Wireframe:
+
   ![Mobile Wireframe](assets/documentation/wireframe_home_page_mobile.png)
 
 Contact Page Wireframe:
+
   ![Contact Page Wireframe](assets/documentation/wireframe_contact_page.png)       
 
 <a name="surface"></a>
