@@ -82,13 +82,13 @@ For this project, wireframes were created using Adobe XD. All wireframes were sh
 ### Wireframes    
 
 Home Page Wireframe
--   ![Home Page Wireframe](assets/documentation/wireframe_home_page.png)
+![Home Page Wireframe](assets/documentation/wireframe_home_page.png)
 
 Mobile Wireframe
--   ![Mobile Wireframe](assets/documentation/wireframe_home_page_mobile.png)
+![Mobile Wireframe](assets/documentation/wireframe_home_page_mobile.png)
 
 Contact Page Wireframe
--   ![Contact Page Wireframe](assets/documentation/wireframe_contact_page.png)       
+![Contact Page Wireframe](assets/documentation/wireframe_contact_page.png)       
 
 <a name="surface"></a>
 ## 1.4. Surface
@@ -213,8 +213,8 @@ Below is the testing process for all pages on desktop and mobile versions:
   - Media:
     - All images load on the page. All images have alt text equivalent in a contrasted color if not loading or for visually impaired users. Working as expected.
 
-  - Responsiveness
-    - Responsiveness has been more challenging than expected. After adding all media queries, the site was not behaving accordingly. While testing on various viewport
+  - Responsiveness:
+    - Responsiveness has been more challenging than expected. After adding all media queries, the site was not behaving accordingly. While testing on various viewport, I noticed that previously centered elements would move out of their original places. From now on, I will start with a mobile-first design and work my way up to wider viewports.
 
   - Footer:
     - Spotify follow button - When the Follow button is clicked, a pop-up window opens to Eli Bre's Spotify page. I suspect that once you follow the artist, the button becomes obsolete.
@@ -253,15 +253,16 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
   [Go to the top](#table-of-contents)
 
 - Home Page - Mobile version - Table
-I would have liked the date column to be less wide, to give more space to the middle column. I did not succeed to fix this.
+  I would have liked the date column to be less wide, to give more space to the middle column. I did not succeed to fix this.
 
 - Footer - Desktop and mobile versions - Contact button
-The contact button is not aligned with the other elements of the footer. DevTools show a different margin compared to the other elements. See pictures below. I did not succeed to fix this.
-![Footer Margin](assets/documentation/footer_margin.png)
-![Contact button margin](assets/documentation/contact_button_margin.png)
+  The contact button is not aligned with the other elements of the footer. DevTools show a different margin compared to the other elements. See pictures below. I did not succeed to fix this.
+
+  ![Footer Margin](assets/documentation/footer_margin.png)
+  ![Contact button margin](assets/documentation/contact_button_margin.png) 
 
 - Responsive design
-On some mobile devices the logo and Call to Action are not centered anymore.
+  On some mobile devices the logo and Call to Action are not centered anymore.
 
 <a name="deployment"></a>
 # 6. Deployment
@@ -302,4 +303,4 @@ Below is the step by step process for deployment:
 
 ### Acknowledgements
 
-- My new Mentor for accepting to support me at the last minute and for his advice.
+- My new Mentor for accepting to support me at the last minute and for his valuable advice.

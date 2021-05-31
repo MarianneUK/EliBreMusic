@@ -59,8 +59,7 @@ header .small-logo {
     height: 700px;
     width: 50%;
     float: left;
-    background: #000;
-    
+    background: #000;    
 }
 
 .logo {
@@ -102,6 +101,7 @@ header .small-logo {
 
 .gig-gallery {
     float: left;
+    width: 50%;
     columns: 4;
     background-color: #000;
 }
@@ -115,7 +115,7 @@ header .small-logo {
 
 .gigs {
     background-color: rgba(85, 85, 85, 0.5);
-    width: 700px;
+    width: 50%;
     float: right;
     text-align: center; 
 }
