@@ -288,7 +288,7 @@ Below is the step by step process for deployment:
 # 7. End Product
   [Go to the top](#table-of-contents)
 
-Below are screenshots of the end product, for laptop and desktop:
+Below are screenshots of the end product, for desktop and mobile:
 
 Home page:
   ![Home page desktop](assets/documentation/home_page_desktop.png)
