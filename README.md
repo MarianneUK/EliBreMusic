@@ -148,7 +148,7 @@ According to [Designs Desk](https://www.designsdesk.com/91/10-essential-website-
 
 - __The Footer__ 
 
-  - The footer section includes an embedded Spotify follow button, links to eli Bre's social media sites and a link to the contact page. The social media links will open to a new tab to allow easy navigation for the user. 
+  - The footer section includes an embedded Spotify follow button, links to Eli Bre's social media sites and a link to the contact page. The social media links will open to a new tab to allow easy navigation for the user. 
   - The footer is valuable to the user as it encourages them to keep connected via social media and also provides a link to the contact page for desktop and mobile versions.
 
 ![Footer](assets/documentation/footer.png)
