@@ -102,7 +102,7 @@ The main colours for this are black (#000) and gray (#b3b3b3).
 ### Typography
 The font used throughout the project is Verdana with Sans Serif as the fallback font in case for any reason the font isn't being imported into the site correctly.
 
-#### Imagery
+### Imagery
 All imagery are relevant to the artist and her own property.
 
 
