@@ -22,7 +22,8 @@ My friend Eliane Brechbühl is a talented singer/songwriter, originally from Swi
 - [4. Testing](#testing)
 - [5. Known Bugs](#known-bugs)
 - [6. Deployment](#deployment)
-- [7. Credits](#credits)
+- [7. End Product](#end-product)
+- [8. Credits](#credits)
 
 <a name="ux"></a>
 # 1. User Experience (UX) development process
@@ -82,13 +83,13 @@ For this project, wireframes were created using Adobe XD. All wireframes were sh
 ### Wireframes    
 
 Home Page Wireframe
-![Home Page Wireframe](assets/documentation/wireframe_home_page.png)
+  ![Home Page Wireframe](assets/documentation/wireframe_home_page.png)
 
 Mobile Wireframe
-![Mobile Wireframe](assets/documentation/wireframe_home_page_mobile.png)
+  ![Mobile Wireframe](assets/documentation/wireframe_home_page_mobile.png)
 
 Contact Page Wireframe
-![Contact Page Wireframe](assets/documentation/wireframe_contact_page.png)       
+  ![Contact Page Wireframe](assets/documentation/wireframe_contact_page.png)       
 
 <a name="surface"></a>
 ## 1.4. Surface
@@ -98,7 +99,11 @@ Contact Page Wireframe
 The main colours for this are black (#000) and gray (#b3b3b3).
 
 ### Typography
-The font used throughout the project is Verdana.
+The font used throughout the project is Verdana with Sans Serif as the fallback font in case for any reason the font isn't being imported into the site correctly.
+
+#### Imagery
+All imagery are relevant to the artist and her own property.
+
 
 <a name="features"></a>
 # 2. Features
@@ -262,7 +267,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
   ![Contact button margin](assets/documentation/contact_button_margin.png) 
 
 - Responsive design
-  On some mobile devices the logo and Call to Action are not centered anymore.
+  I understand this first assignment was supposed to be fully responsive, whereas this submitted project is only responsive for desktop, laptop and mobile. To make this project and future ones responsive, from now on I will start with a mobile-first design as well as learning more about relative units such as em and rem, and also libraries such as Bootstrap. 
 
 <a name="deployment"></a>
 # 6. Deployment
@@ -278,8 +283,30 @@ Below is the step by step process for deployment:
   5. The page will automatically refresh.
   6. Scroll back down through the page to locate the now published site [link](https://github.com) in the "GitHub Pages" section.
 
+<a name="end-product"></a>
+# 7. End Product
+  [Go to the top](#table-of-contents)
+
+Below are screenshots of the end product, for laptop and desktop:
+
+Home page:
+  ![Home page desktop](assets/documentation/home_page_desktop.png)
+  ![Home page mobile](assets/documentation/home_page_mobile.png)
+
+Music page:
+  ![Music page desktop](assets/documentation/music_page_desktop.png)
+  ![Music page mobile](assets/documentation/music_page_mobile.png)
+
+Story page:
+  ![Story page desktop](assets/documentation/story_page_desktop.png)
+  ![Story page mobile](assets/documentation/story_page_mobile.png)
+
+Contact page:
+  ![Contact page desktop](assets/documentation/contact_page_desktop.png)
+  ![Contact page mobile](assets/documentation/contact_page_mobile.png)
+
 <a name="credits"></a>
-# 7. Credits
+# 8. Credits
   [Go to the top](#table-of-contents)
 
 ### Design
@@ -303,4 +330,4 @@ Below is the step by step process for deployment:
 
 ### Acknowledgements
 
-- My new Mentor for accepting to support me at the last minute and for his valuable advice.
+- My new Mentor Marcel for accepting to support me at the last minute and for his valuable advice.
