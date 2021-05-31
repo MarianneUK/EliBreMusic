@@ -82,13 +82,13 @@ For this project, wireframes were created using Adobe XD. All wireframes were sh
 
 ### Wireframes    
 
-Home Page Wireframe
+Home Page Wireframe:
   ![Home Page Wireframe](assets/documentation/wireframe_home_page.png)
 
-Mobile Wireframe
+Mobile Wireframe:
   ![Mobile Wireframe](assets/documentation/wireframe_home_page_mobile.png)
 
-Contact Page Wireframe
+Contact Page Wireframe:
   ![Contact Page Wireframe](assets/documentation/wireframe_contact_page.png)       
 
 <a name="surface"></a>
