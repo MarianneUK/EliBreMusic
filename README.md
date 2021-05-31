@@ -4,8 +4,6 @@
 
 My friend Eliane Brechbühl is a talented singer/songwriter, originally from Switzerland. Our paths crossed in Cambridge, UK and immediately found common grounds. When I let her know of my upcoming project, she told me that she did not have a website yet, despite her strong social media presence. Eli has beautiful pictures and lots of great content, which I thought would make a fantastic website where she could showcase all of her work on one dedicated platform.
 
-<!--- Elibremusic.com is the official website for the independent singer/songwriter Eli Bre. Eli Bre already has a strong social media presence, and the website aims to promote the artist and her music, increase her fan base as well as offering a professional platform where she can showcase her work and sell music and book gigs. --->
-
 ![Landing page](assets/documentation/landing_page2.png)
 
 # Table of Contents
@@ -22,11 +20,9 @@ My friend Eliane Brechbühl is a talented singer/songwriter, originally from Swi
 - [2. Features](#features)
 - [3. Technologies Used](#technologies-used)
 - [4. Testing](#testing)
-- [5. Development Cycle](#development-cycle)
+- [5. Known Bugs](#known-bugs)
 - [6. Deployment](#deployment)
-- [7. End Product](#end-product)
-- [8. Known Bugs](#known-bugs)
-- [9. Credits](#credits)
+- [7. Credits](#credits)
 
 <a name="ux"></a>
 # 1. User Experience (UX) development process
@@ -58,8 +54,8 @@ The main goals of this website is to promote the artist and her music, increase 
     - Returning users will want to book more gigs with the artist.
 
  *  Frequent User Goals
-    - Frequent user will want to check to see if there are any newly added content.
-    - Frequent user will want to check to see if there are any newly added features such as a mailing list sign–up.
+    - Frequent user will want to check if there are any newly added content.
+    - Frequent user will want to check if there are any newly added features such as a mailing list sign–up.
 
 ### User Expectations
 According to [Open Mic UK](https://www.openmicuk.co.uk/advice/why-musicians-singers-need-a-website/), a musician needs a website if they want to be taken seriously. Fans, media, and industry professionals all expect a singer to have a website. They want a one-stop destination that gives full coverage of their career. An artist needs a website to be a credible.
@@ -68,12 +64,12 @@ According to [Open Mic UK](https://www.openmicuk.co.uk/advice/why-musicians-sing
 ## 1.2. Structure
   [Go to the top](#table-of-contents)
 
-<!---It is really important to include responsive design in this project as many users are using different devices (mobile, tablet, laptop/PC). This gives the user the best experience on their device.
+The project must have a responsive design as many users are using different devices (mobile, tablet, laptop/desktop). This gives the user the best experience on their device.
 
  - Responsive on all devices sizes
- - Navigation bar is placed on the top left of the screen and is clear and easy to use. This is also placed in the same position on every page.
+ - Navigation bar is placed at the top of the screen and is clear and easy to use. This is also placed in the same position on every page.
  - Footer at the bottom of each page that links to the social media websites.
- - All elements will be consistent including font size, font family, colour scheme. --->
+ - All elements will be consistent including font size, font family, colour scheme.
 
 <a name="skeleton"></a>
 ## 1.3. Skeleton
@@ -245,12 +241,12 @@ Below is the testing process for all pages on desktop and mobile versions:
 The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
 
 - HTML
-  - 
-- CSS
-  - 
+  - Originally, found 15 errors
+- [W3C CSS Validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fmarianneuk.github.io%2FEliBreMusic%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+  - No Error Found.
 
 <a name="known-bugs"></a>
-# 8. Known Bugs
+# 5. Known Bugs
   [Go to the top](#table-of-contents)
 
 /* You will need to mention unfixed bugs and why they were not fixed. This section should include shortcomings of the frameworks or technologies used. Although time can be a big variable to consider, paucity of time and difficulty understanding implementation is not a valid reason to leave bugs unfixed.*/
@@ -269,12 +265,14 @@ Below is the step by step process for deployment:
   5. The page will automatically refresh.
   6. Scroll back down through the page to locate the now published site [link](https://github.com) in the "GitHub Pages" section.
 
-## Credits 
+<a name="credits"></a>
+# 7. Credits
+  [Go to the top](#table-of-contents)
 
 ### Design
 
 - [Dribbble](https://dribbble.com/): for inspiration.
-- [DesignCourse Youtube Channel](https://www.youtube.com/c/DesignCourse/videos): for great tutorials from design to html &amp css.
+- [DesignCourse Youtube Channel](https://www.youtube.com/c/DesignCourse/videos): for great tutorials from design to html &amp; css.
 
 ### Code
 
