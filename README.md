@@ -85,9 +85,9 @@ For this project, wireframes were created using Adobe XD. All wireframes were sh
 
 ### Wireframes    
 
--   Home Page Wireframe()
+-   [Home Page Wireframe](assets/documentation/wireframe_home_page.png)
 
--   Mobile Wireframe()
+-   [Mobile Wireframe]()
 
 -   Contact Page Wireframe()             
 
@@ -114,7 +114,8 @@ According to [Designs Desk](https://www.designsdesk.com/91/10-essential-website-
   - Featured on all pages, the navigation bar includes links to the Home page via the Home tab or the logo on all pages except on the landing page to avoid repetition. Other links include the Music page, Story page and Contact page and is identical in each page to allow for easy navigation. For the mobile version, the Contact page link has been removed to allow easier navigation and can be found in the footer section.
   - This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button. 
 
-![Nav Bar](assets/documentation/home_page_nav_bar.png)(assets/documentation/other_pages_nav_bar.png)
+![Nav Bar](assets/documentation/home_page_nav_bar.png)
+![Nav Bar](assets/documentation/other_pages_nav_bar.png)
 
 - __The landing page__
 
@@ -168,6 +169,7 @@ According to [Designs Desk](https://www.designsdesk.com/91/10-essential-website-
 
 * [Adobe XD](https://www.adobe.com/uk/products/xd.html?sdid=88X75SKR&mv=search&ef_id=CjwKCAjwzMeFBhBwEiwAzwS8zEdg1c5loBLcgbV5LTjaYi7O3-GLU0Gzv4EV_lO9A4Z9kiXtmX-x4RoClvYQAvD_BwE:G:s&s_kwcid=AL!3085!3!473161431558!e!!g!!adobe%20xd!1642716928!71269819668)
 * [Visual Studio Code](https://code.visualstudio.com/)
+* [Gitpod]
 * [HTML5](https://en.wikipedia.org/wiki/HTML5)
 * [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
 * [Google Chrome DevTool](https://www.google.com/intl/en_uk/chrome/)
@@ -227,7 +229,7 @@ Below is the testing process for all pages on desktop and mobile versions:
 
 ### Responsive Tools
 
-### W3C Validator Tools
+
 
 ### Validator Testing 
 
@@ -236,7 +238,7 @@ Below is the testing process for all pages on desktop and mobile versions:
 - CSS
   - 
 
-### Unfixed Bugs
+
 <a name="known-bugs"></a>
 # 8. Known Bugs
   [Go to the top](#table-of-contents)
