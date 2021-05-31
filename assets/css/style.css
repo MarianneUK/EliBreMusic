@@ -391,3 +391,132 @@ label {
     cursor: pointer;
 }
 
+/* Media queries */
+
+/* For small screens sizes from 490px wide and down */
+@media screen and (max-width: 490px){
+    #nav-bar {
+        font-size: 10px; 
+    }
+
+    .logo > svg {
+        width: 300px;
+    } 
+
+    .cta {
+        margin-left: 0px;
+        margin-top: 35px;
+    }
+
+    .hero-right {
+        width: 320px;
+        margin: 0px 15px 10px 15px;
+    }
+
+    .gigs {
+        width: 320px;
+        text-align: center;
+        margin: 0px;  
+    }
+
+    table {
+        padding: 2px;
+        width: 320px;
+    }
+
+    th {
+        font-size: 12px;
+    }
+
+    td {
+        font-weight: 200;
+        font-size: 11px;
+    }
+
+    th, td {
+        line-height: 15px;
+        padding: 0px;
+    }
+
+    .follow-button {
+        margin-left: 95px;
+        margin-right: 90px;
+    }
+
+    .social-links {
+        margin-left: 40px;
+        margin-right: 20px; 
+    }
+
+    .button {
+        margin-left: 95px;
+    }
+
+    .music-section {
+        width: 320px;
+        height: 1445px;
+        padding: 0;
+    }
+
+    .music-section > iframe {
+        width: 300px;
+        margin: 0;
+    }
+
+    .story-section {
+        margin-top: 5px;
+        margin-bottom: 10px;
+    }
+    
+    .story-section > img {
+        width: 300px;
+        margin-left: 0;
+    }
+    
+    .her-story {
+        width: 300px;
+        height: 850px;
+        margin-right: 0; 
+        padding: 20px 5px;
+    }
+
+    .languages li {
+        font-size: 11px;
+    }
+
+    .contact-form {
+        width: 280px;
+        height: 730px;
+        margin-top: 40px;
+        margin-left: 5px;
+        padding: 10px 10px;
+    }
+    
+    .contact-form > h3 {
+        font-size: 20px;
+    }
+    
+    .text-input {
+        width: 260px;
+        height: 25px;
+        margin: 20px 0 20px 0;
+        padding: 10px;
+    }
+    
+    textarea {
+        width: 260px;
+        height: 150px;
+        margin: 20px 0 20px 0;
+        padding: 10px;
+    }
+    
+    .radio {
+        margin-left: 10px;
+        margin-right: 1px;
+    }
+    
+    label {
+        font-size: 14px;
+        margin-right: 25px;
+    }
+}
