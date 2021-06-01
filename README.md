@@ -1,4 +1,4 @@
-# Eli Bre
+# Eli Bre Music
 
 [View the live project here.](https://marianneuk.github.io/EliBreMusic/)
 
@@ -258,17 +258,17 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 # 5. Known Bugs
   [Go to the top](#table-of-contents)
 
-- Home Page - Mobile version - Table
-  I would have liked the date column to be less wide, to give more space to the middle column. I did not succeed to fix this.
+- Home Page - Mobile version - Table:
+  - I would have liked the date column to be less wide, to give more space to the middle column. I did not succeed to fix this.
 
-- Footer - Desktop and mobile versions - Contact button
-  The contact button is not aligned with the other elements of the footer. DevTools show a different margin compared to the other elements. See pictures below. I did not succeed to fix this.
+- Footer - Desktop and mobile versions - Contact button:
+  - The contact button is not aligned with the other elements of the footer. DevTools show a different margin compared to the other elements. See pictures below. I did not succeed to fix this.
 
   ![Footer Margin](assets/documentation/footer_margin.png)
   ![Contact button margin](assets/documentation/contact_button_margin.png) 
 
-- Responsive design
-  I understand this first assignment was supposed to be fully responsive, whereas this submitted project is only responsive for desktop, laptop and mobile. To make this project and future ones responsive, from now on I will start with a mobile-first design as well as learning more about relative units such as em and rem, and also libraries such as Bootstrap. 
+- Responsive design:
+  - I understand this first assignment was supposed to be fully responsive, whereas this submitted project is only responsive for desktop, laptop and mobile. To make this project and future ones responsive, from now on I will start with a mobile-first design as well as learning more about relative units such as em and rem, and also libraries such as Bootstrap. 
 
 <a name="deployment"></a>
 # 6. Deployment
